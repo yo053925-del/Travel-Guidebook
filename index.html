@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>京都 × 神戶 × 奈良 旅遊小書</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500&display=swap');
+:root{--momo:#e8734a;--koyo:#c0392b;--gold:#d4a745;--ink:#2c2416;--stone:#8b7355;--light:#fefaf4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:#f0ebe0;color:var(--ink);line-height:1.7}
+.page{max-width:800px;margin:20px auto;background:#fffef9;box-shadow:0 4px 24px rgba(0,0,0,.12);border-radius:6px;overflow:hidden}
+.cover{min-height:100vh;background:linear-gradient(175deg,#fdf4e3 0%,#fce8d5 40%,#f5d5b8 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3rem 2rem;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;top:-100px;left:-100px;width:300px;height:300px;background:radial-gradient(circle,rgba(224,120,80,.15) 0%,transparent 70%);border-radius:50%}
+.cover::after{content:'';position:absolute;bottom:-80px;right:-80px;width:280px;height:280px;background:radial-gradient(circle,rgba(192,57,43,.10) 0%,transparent 70%);border-radius:50%}
+.cover .season-icon{font-size:3rem;position:relative;z-index:2;margin-bottom:.5rem}
+.cover .subtitle{font-family:'Noto Serif TC',serif;font-size:.95rem;color:var(--momo);letter-spacing:.3em;margin-bottom:.5rem;position:relative;z-index:2}
+.cover h1{font-family:'Noto Serif TC',serif;font-size:2.6rem;font-weight:700;color:var(--koyo);letter-spacing:.08em;position:relative;z-index:2;line-height:1.4}
+.cover h1 .small{font-size:1.1rem;display:block;font-weight:400;color:var(--stone);margin-bottom:.3rem}
+.cover .date-badge{display:inline-block;background:var(--koyo);color:#fff;padding:.4rem 1.8rem;border-radius:3rem;font-size:.9rem;letter-spacing:.15em;margin:.8rem 0;position:relative;z-index:2}
+.cover .meta{position:relative;z-index:2;margin-top:.5rem}
+.cover .meta span{display:block;font-size:.85rem;color:var(--stone);margin:.2rem 0}
+.cover .divider{width:60px;height:2px;background:var(--momo);margin:1.5rem auto;position:relative;z-index:2;opacity:.6}
+.inner{padding:2.5rem 2.8rem}
+.section-title{font-family:'Noto Serif TC',serif;font-size:1.4rem;font-weight:700;color:var(--koyo);border-left:5px solid var(--momo);padding-left:1rem;margin:2rem 0 1.2rem}
+.section-title:first-child{margin-top:0}
+h3{font-family:'Noto Serif TC',serif;font-size:1.1rem;color:var(--ink);margin:1.5rem 0 .6rem}
+.day-card{background:var(--light);border-radius:12px;padding:1.5rem 1.8rem;margin-bottom:1rem;border:1px solid #f0e5d8}
+.day-card .day-num{font-family:'Noto Serif TC',serif;font-size:2.2rem;font-weight:700;color:var(--momo);line-height:1}
+.day-card .day-label{font-size:.8rem;color:var(--stone);letter-spacing:.1em}
+.day-card .day-title{font-family:'Noto Serif TC',serif;font-size:1.15rem;font-weight:600;margin:.2rem 0 .8rem}
+.tl-item{display:flex;gap:.8rem;padding:.4rem 0;font-size:.88rem;align-items:flex-start}
+.tl-time{min-width:4rem;color:var(--momo);font-weight:600;font-size:.82rem}
+.tl-desc{flex:1}
+.new-tag{display:inline-block;background:#e8734a;color:#fff;padding:0 .4rem;border-radius:3px;font-size:.7rem;margin-right:.3rem;vertical-align:1px}
+.info-box{background:#eef4fa;border:1px solid #c5d5e8;border-radius:8px;padding:.8rem 1.2rem;margin-top:.8rem;font-size:.82rem;color:#3c5a7a}
+.info-box.orange{background:#fef7e8;border-color:#f5dca0;color:#7a6a3c}
+.info-box .info-title{font-weight:700;margin-bottom:.4rem;font-size:.88rem}
+.info-box .info-row{display:flex;gap:.5rem;padding:.15rem 0;align-items:flex-start}
+.info-box .info-label{min-width:3.5rem;font-weight:600;flex-shrink:0}
+table{width:100%;border-collapse:collapse;font-size:.85rem;margin:1rem 0}
+th{background:var(--momo);color:#fff;padding:.6rem .8rem;font-weight:500;text-align:left}
+td{padding:.55rem .8rem;border-bottom:1px solid #ece4d5}
+tr:nth-child(even) td{background:var(--light)}
+a{color:var(--koyo);text-decoration:none}a:hover{text-decoration:underline}
+.footer-note{text-align:center;color:#c0b0a0;font-size:.75rem;padding:2rem 0 1rem;letter-spacing:.1em}
+@media print{body{background:#fff}.page{box-shadow:none;margin:0;border-radius:0;max-width:100%}.cover{min-height:100vh;page-break-after:always}.day-card{break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<div class="page cover">
+<div class="season-icon">🍁</div>
+<div class="subtitle">關西秋日家族慢旅</div>
+<h1><span class="small">京都 × 神戶 × 奈良</span>五天四夜</h1>
+<div class="divider"></div>
+<div class="date-badge">🗓️ 2026.10.14 — 10.18</div>
+<div class="meta">
+<span>✈️ 星宇航空 JX306 台中 → 神戸</span>
+<span>🏠 全住京都 · 樂松 4 晚</span>
+<span>👥 7 人同行 · 3 長輩 + 3 大人 + 1 小寶貝</span>
+</div>
+</div>
+
+<div class="page"><div class="inner">
+<div class="section-title">🗺️ 行程總覽</div>
+<table>
+<tr><th>日期</th><th>主題</th><th>住宿</th></tr>
+<tr><td>Day 1 · 10/14 三</td><td>🏮 神戶通關 → 南京町 → 麵包超人 → 夜景 → 京都 → 🆕東寺</td><td rowspan="4">🏠 <strong>樂 松</strong><br>京都站步行 10 分</td></tr>
+<tr><td>Day 2 · 10/15 四</td><td>🎋 嵐山竹林 ＋ ✨ 金閣寺</td></tr>
+<tr><td>Day 3 · 10/16 五</td><td>👘 和服 → 清水寺 → 🆕八坂神社 → 🆕祇園 → 錦市場</td></tr>
+<tr><td>Day 4 · 10/17 六</td><td>🦌 奈良公園 → 東大寺</td></tr>
+<tr><td>Day 5 · 10/18 日</td><td>☕ 京都早餐 → 🛫 神戶機場</td><td>—</td></tr>
+</table>
+
+<div class="section-title">✈️ 航班 · 🏠 住宿 · 📦 行李</div>
+<table>
+<tr><th>航班</th><td>去：星宇 JX306 10/14 RMQ 08:45 → UKB 12:30<br>回：星宇 JX301 10/18 UKB 13:30 → RMQ 15:35</td></tr>
+<tr><th>住宿</th><td><a href="https://www.airbnb.com.tw/rooms/1675937752566323038">～樂 松～</a> 4 臥室 / 9 床 / 2 衛浴 · 全館地暖<br>近鐵東寺站 2 分 · 京都站步行 10 分 · 入住 16:00 / 退房 11:00</td></tr>
+<tr><th>行李</th><td>📦 Day 1 神戶機場 <strong>宅急便直寄京都樂松</strong> · 空手玩整天！</td></tr>
+</table>
+</div></div>
+
+<div class="page"><div class="inner">
+<div class="section-title">📅 Day 1　10/14（三）神戶通關 → 京都</div>
+<div class="day-card">
+<div class="day-num">01</div><div class="day-label">🏮 神戶玩透透 → 夜宿京都樂松</div>
+<div class="day-title">南京町 → 麵包超人 → 港區夜景 → 京都 → 🆕東寺夜拍</div>
+
+<div class="tl-item"><span class="tl-time">08:45</span><span class="tl-desc">✈️ 星宇 JX306 台中起飛 · 機上享用餐點</span></div>
+<div class="tl-item"><span class="tl-time">12:30</span><span class="tl-desc">🛬 抵達神戶機場（UKB）· 通關約 20 分</span></div>
+<div class="tl-item"><span class="tl-time">12:50</span><span class="tl-desc">📦 <strong>行李寄送！</strong>神戶機場 1F 宅急便櫃檯 → 寄往京都樂松<br><span style="color:#8b7355;font-size:.8rem">💰 ¥1,500–2,000/件 · 當晚送達 · 只需帶隨身包出發</span></span></div>
+<div class="tl-item"><span class="tl-time">13:05</span><span class="tl-desc">🚝 Port Liner → 三宮站（18 分 · ¥340）· 約 10 分一班</span></div>
+<div class="tl-item"><span class="tl-time">13:30</span><span class="tl-desc">🏮 <strong>南京町中華街</strong> 午餐！老祥記豬肉包、北京烤鴨捲、小籠包</span></div>
+<div class="tl-item"><span class="tl-time">15:00</span><span class="tl-desc">🎡 <strong>麵包超人博物館</strong>（2F 付費 · 1F 免費）· JR神戶站步行 8 分 · 10:00–18:00</span></div>
+<div class="tl-item"><span class="tl-time">17:00</span><span class="tl-desc">🛒 MOSAIC 廣場＋umie 購物 · 順便晚餐</span></div>
+<div class="tl-item"><span class="tl-time">18:00</span><span class="tl-desc">🍽️ 晚餐｜神戶港區</span></div>
+<div class="tl-item"><span class="tl-time">18:45</span><span class="tl-desc">🌃 <strong>神戶港夜景！</strong>港塔＋摩天輪（¥800）· 10 月中日落約 17:20</span></div>
+<div class="tl-item"><span class="tl-time">19:30</span><span class="tl-desc">🚄 JR 新快速 → 京都站（50 分 · ¥1,100）· 車上休息</span></div>
+<div class="tl-item"><span class="tl-time">20:30</span><span class="tl-desc">🏠 <strong>入住 樂 松</strong> · 行李已送達！</span></div>
+<div class="tl-item"><span class="tl-time">21:00</span><span class="tl-desc"><span class="new-tag">NEW</span> ⛩️ <strong>東寺</strong> 夜拍五重塔（步行 4 分）· 免費 · 日本最高五重塔 · 夜間點燈超美</span></div>
+</div>
+
+<div class="info-box orange">
+<div class="info-title">📦 Day 1 行李寄送教學</div>
+<div class="info-row"><span class="info-label">📍 地點</span><span>神戶機場 1F 入境大廳「<strong>宅急便櫃檯</strong>」（ヤマト運輸／佐川急便）</span></div>
+<div class="info-row"><span class="info-label">🗣️ 日文</span><span><strong>「京都まで送りたいです」</strong>＋出示樂松地址</span></div>
+<div class="info-row"><span class="info-label">📝 寄件單</span><span>收件人＝你的名字 · 地址＝樂松民宿 · 備註：<strong>「10/14宿泊」</strong></span></div>
+<div class="info-row"><span class="info-label">💰 費用</span><span>¥1,500–2,000/件 · 7 人約 4–5 件 ≈ ¥7,500–10,000</span></div>
+<div class="info-row"><span class="info-label">⚠️ 保險</span><span>出發前先告知 Airbnb 房東會用宅急便寄行李，請幫忙收件</span></div>
+</div>
+
+<div class="info-box">
+<div class="info-title">🚃 Day 1 交通</div>
+<div class="info-row"><span class="info-label">UKB→三宮</span><span>Port Liner · 18 分 · ¥340 · 約 10 分一班</span></div>
+<div class="info-row"><span class="info-label">三宮→京都</span><span>JR 新快速（野洲/米原方向）· 50 分 · ¥1,100</span></div>
+<div class="info-row"><span class="info-label">京都→樂松</span><span>步行 10 分（八条西口）或計程車 ¥700</span></div>
+</div>
+
+<h3>🍽️ Day 1 美食</h3>
+<table>
+<tr><th>餐廳</th><th>類型</th><th>價位</th><th>連結</th></tr>
+<tr><td>老祥記（南京町）</td><td>豚饅頭</td><td>¥200/個</td><td><a href="https://roushouki.com/">官網</a></td></tr>
+<tr><td>名代豬排 かつくら</td><td>炸豬排</td><td>¥1,500–2,500</td><td><a href="https://www.katsukura.jp/shops/porta/">官網</a></td></tr>
+</table>
+</div></div>
+
+<div class="page"><div class="inner">
+<div class="section-title">📅 Day 2　10/15（四）🎋 嵐山 ＋ ✨ 金閣寺</div>
+<div class="day-card">
+<div class="day-num">02</div><div class="day-label">西北京都</div>
+<div class="day-title">竹林小徑 → 天龍寺 → 渡月橋 → 金閣寺</div>
+
+<div class="tl-item"><span class="tl-time">08:00</span><span class="tl-desc">🚶 樂松 → 京都站（步行 10 分）</span></div>
+<div class="tl-item"><span class="tl-time">08:20</span><span class="tl-desc">🚃 JR 嵯峨野線 → 嵯峨嵐山站（15 分 · ¥240）· 32–33 月台</span></div>
+<div class="tl-item"><span class="tl-time">08:40</span><span class="tl-desc">🎋 <strong>竹林小徑</strong>（野宮神社→大河內山莊）· 早去光線最美</span></div>
+<div class="tl-item"><span class="tl-time">09:30</span><span class="tl-desc">⛩️ 天龍寺 · 世界遺產 · 庭園可坐賞</span></div>
+<div class="tl-item"><span class="tl-time">10:30</span><span class="tl-desc">🌉 渡月橋＋桂川河畔散策</span></div>
+<div class="tl-item"><span class="tl-time">11:30</span><span class="tl-desc">🍽️ 午餐：天龍寺 篩月 精進料理</span></div>
+<div class="tl-item"><span class="tl-time">13:00</span><span class="tl-desc">🚕 計程車 → 金閣寺（25 分 · ¥3,000 · 7 人分攤 ¥430/人）</span></div>
+<div class="tl-item"><span class="tl-time">13:30</span><span class="tl-desc">✨ <strong>金閣寺（鹿苑寺）</strong>· 鏡湖池金色倒影 · 門票 ¥500</span></div>
+<div class="tl-item"><span class="tl-time">14:30</span><span class="tl-desc">☕ 金閣寺周邊茶屋 · 抹茶＋和菓子休息</span></div>
+<div class="tl-item"><span class="tl-time">15:30</span><span class="tl-desc">🚌 市巴士 205/12 → 京都站（35 分 · ¥230）· 金閣寺道上車</span></div>
+<div class="tl-item"><span class="tl-time">18:00</span><span class="tl-desc">🍽️ 晚餐：瓢斗 四条烏丸 出汁涮涮鍋</span></div>
+</div>
+
+<div class="info-box">
+<div class="info-title">🚃 Day 2 交通</div>
+<div class="info-row"><span class="info-label">京都→嵐山</span><span>JR 嵯峨野線 · 15 分 · ¥240 · 32–33 月台 · 往龜岡</span></div>
+<div class="info-row"><span class="info-label">嵐山→金閣寺</span><span>計程車 · 25 分 · ¥3,000 · 7 人分攤</span></div>
+<div class="info-row"><span class="info-label">金閣寺→京都</span><span>市巴士 205/12 · 35 分 · ¥230</span></div>
+</div>
+<div class="info-box orange"><div class="info-title">🔄 雨備</div><span>京都鐵道博物館＋京都水族館</span></div>
+
+<h3>🍽️ Day 2 晚餐</h3>
+<table>
+<tr><th>餐廳</th><th>類型</th><th>價位</th><th>連結</th></tr>
+<tr><td>瓢斗 四条烏丸</td><td>出汁涮涮鍋 ★4.7</td><td>¥5,000–11,500</td><td><a href="https://japan-food.guide/zh-TW/restaurants/1712">預約</a></td></tr>
+<tr><td>天ぷら 勝天</td><td>天婦羅居酒屋</td><td>¥3,000–6,050</td><td><a href="https://japan-food.guide/zh-TW/restaurants/558">預約</a></td></tr>
+</table>
+</div></div>
+
+<div class="page"><div class="inner">
+<div class="section-title">📅 Day 3　10/16（五）👘 和服日</div>
+<div class="day-card">
+<div class="day-num">03</div><div class="day-label">東山經典路線</div>
+<div class="day-title">清水寺 → 二三年坂 → 🆕八坂神社 → 🆕祇園 → 錦市場</div>
+
+<div class="tl-item"><span class="tl-time">08:30</span><span class="tl-desc">🚕 計程車 → 和服店（約 15 分 · ¥1,500 · 7 人分攤）</span></div>
+<div class="tl-item"><span class="tl-time">09:00</span><span class="tl-desc">👘 <strong>和服體驗</strong>（岡本和服／和香菜 Wakana）</span></div>
+<div class="tl-item"><span class="tl-time">10:00</span><span class="tl-desc">⛩️ <strong>清水寺</strong> · 穿和服拍清水舞台 · 門票 ¥400</span></div>
+<div class="tl-item"><span class="tl-time">11:30</span><span class="tl-desc">🚶 二寧坂 · 三寧坂 石板老街和服散步</span></div>
+<div class="tl-item"><span class="tl-time">12:30</span><span class="tl-desc">🍽️ 午餐：侘家古曆堂 石燒親子丼</span></div>
+<div class="tl-item"><span class="tl-time">14:00</span><span class="tl-desc">👘 歸還和服</span></div>
+<div class="tl-item"><span class="tl-time">14:05</span><span class="tl-desc"><span class="new-tag">NEW</span> ⛩️ <strong>八坂神社</strong>（步行 5 分）· 免費 · 巨大紅色鳥居必拍 · 24h 開放</span></div>
+<div class="tl-item"><span class="tl-time">14:15</span><span class="tl-desc"><span class="new-tag">NEW</span> 🏮 <strong>祇園花見小路</strong>（步行 3 分）· 京都老街風情 · 運氣好遇見藝妓</span></div>
+<div class="tl-item"><span class="tl-time">15:00</span><span class="tl-desc">🚶 → <strong>錦市場</strong>（步行 10 分 · 沿四条通）· 有屋頂不怕雨</span></div>
+<div class="tl-item"><span class="tl-time">16:00</span><span class="tl-desc">⛩️ 錦天滿宮 · 市場旁</span></div>
+<div class="tl-item"><span class="tl-time">17:00</span><span class="tl-desc">🚕 計程車回樂松（約 ¥1,200）</span></div>
+<div class="tl-item"><span class="tl-time">18:30</span><span class="tl-desc">🍽️ 晚餐：京都 かに銀 河原町 螃蟹吃到飽</span></div>
+</div>
+
+<div class="info-box orange">
+<div class="info-title">🆕 新增亮點</div>
+<div class="info-row"><span class="info-label">八坂神社</span><span>清水寺走到錦市場<strong>必經之路</strong>· 紅色大鳥居是京都地標 · 停 20 分鐘拍照就夠</span></div>
+<div class="info-row"><span class="info-label">祇園花見小路</span><span>八坂神社正對面 · 石板路＋茶屋建築 · 傍晚 17–18 點有機會看到藝妓</span></div>
+</div>
+
+<div class="info-box">
+<div class="info-title">🚕 Day 3 交通</div>
+<div class="info-row"><span class="info-label">樂松→清水寺</span><span>計程車 · 15 分 · ¥1,500 · 7 人分攤</span></div>
+<div class="info-row"><span class="info-label">全線步行</span><span>清水寺→二寧坂→八坂神社→祇園→錦市場 · 沿途平坦</span></div>
+<div class="info-row"><span class="info-label">回程</span><span>計程車 · 約 ¥1,200</span></div>
+</div>
+<div class="info-box orange"><div class="info-title">🔄 雨備</div><span>錦市場（有屋頂）＋河原町商店街＋寺町京極 · 和服改室內攝影</span></div>
+
+<h3>🍽️ Day 3 晚餐</h3>
+<table>
+<tr><th>餐廳</th><th>類型</th><th>價位</th><th>連結</th></tr>
+<tr><td>京都 かに銀 河原町</td><td>螃蟹吃到飽</td><td>¥7,500–9,300</td><td><a href="https://kyoto-kanigin-kawaramachi.foodre.jp/">官網</a></td></tr>
+<tr><td>鳥せゑ 西院</td><td>烤雞串</td><td>¥3,000–6,000</td><td><a href="https://akrtoriseesaiin.owst.jp/">官網</a></td></tr>
+</table>
+</div></div>
+
+<div class="page"><div class="inner">
+<div class="section-title">📅 Day 4　10/17（六）🦌 奈良</div>
+<div class="day-card">
+<div class="day-num">04</div><div class="day-label">鹿與大佛</div>
+<div class="day-title">奈良公園 → 東大寺</div>
+
+<div class="tl-item"><span class="tl-time">08:00</span><span class="tl-desc">🚶 樂松 → 京都站</span></div>
+<div class="tl-item"><span class="tl-time">08:30</span><span class="tl-desc">🚃 JR 奈良線快速 → 奈良站（45 分 · ¥720）· 8–10 月台</span></div>
+<div class="tl-item"><span class="tl-time">09:15</span><span class="tl-desc">🚶 奈良站 → 奈良公園（步行 15 分 · 三条通直走）</span></div>
+<div class="tl-item"><span class="tl-time">09:30</span><span class="tl-desc">🦌 <strong>奈良公園</strong> 餵鹿！鹿仙貝 ¥200</span></div>
+<div class="tl-item"><span class="tl-time">10:30</span><span class="tl-desc">🏯 <strong>東大寺</strong> 大佛殿 · 世界最大木造建築 · 門票 ¥600</span></div>
+<div class="tl-item"><span class="tl-time">12:00</span><span class="tl-desc">🍽️ 午餐：志津香 公園店 · 奈良七種釜飯</span></div>
+<div class="tl-item"><span class="tl-time">14:00</span><span class="tl-desc">🚃 JR → 京都站（45 分）</span></div>
+<div class="tl-item"><span class="tl-time">15:00</span><span class="tl-desc">🛍️ 京都站周邊最後伴手禮</span></div>
+<div class="tl-item"><span class="tl-time">18:00</span><span class="tl-desc">🍽️ 晚餐：すき焼き十二天 or 瓢斗</span></div>
+</div>
+
+<div class="info-box">
+<div class="info-title">🚃 Day 4 交通</div>
+<div class="info-row"><span class="info-label">京都→奈良</span><span>JR 奈良線快速 · 45 分 · ¥720 · 8–10 月台</span></div>
+<div class="info-row"><span class="info-label">奈良站→公園</span><span>步行 15 分（或巴士 ¥210 · 5 分）</span></div>
+</div>
+<div class="info-box orange"><div class="info-title">🔄 雨備</div><span>鹿雨天仍會出來！東大寺室內。大雨改逛京都站＋AEON</span></div>
+
+<h3>🍽️ Day 4 美食</h3>
+<table>
+<tr><th>餐廳</th><th>類型</th><th>價位</th><th>連結</th></tr>
+<tr><td>志津香 公園店</td><td>奈良七種釜飯</td><td>¥1,600–2,500</td><td><a href="https://tabelog.com/nara/A2901/A290101/29000714/">食べログ</a></td></tr>
+<tr><td>すき焼き十二天</td><td>A5 和牛壽喜燒</td><td>¥12,000–19,360</td><td><a href="https://japan-food.guide/zh-TW/restaurants/1872">預約</a></td></tr>
+</table>
+</div></div>
+
+<div class="page"><div class="inner">
+<div class="section-title">📅 Day 5　10/18（日）☕ 回程</div>
+<div class="day-card">
+<div class="day-num">05</div><div class="day-label">🛫 回家</div>
+<div class="day-title">京都早餐 → 神戶機場 → 台中</div>
+
+<div class="tl-item"><span class="tl-time">08:00</span><span class="tl-desc">🧳 退房 · 行李隨身帶走</span></div>
+<div class="tl-item"><span class="tl-time">08:30</span><span class="tl-desc">☕ 京都早餐：INODA COFFEE 本店 or 鴨川散策</span></div>
+<div class="tl-item"><span class="tl-time">10:00</span><span class="tl-desc">🚄 JR 新快速 → 三宮站（50 分 · ¥1,100）· 往姬路方向</span></div>
+<div class="tl-item"><span class="tl-time">10:50</span><span class="tl-desc">🚝 Port Liner → 神戶機場（18 分 · ¥340）</span></div>
+<div class="tl-item"><span class="tl-time">11:10</span><span class="tl-desc">🛫 神戶機場報到</span></div>
+<div class="tl-item"><span class="tl-time">13:30</span><span class="tl-desc">✈️ <strong>星宇 JX301 起飛</strong> UKB → RMQ</span></div>
+<div class="tl-item"><span class="tl-time">15:35</span><span class="tl-desc">🏠 抵達台中！🎉</span></div>
+</div>
+
+<div class="info-box">
+<div class="info-title">🚃 Day 5 交通</div>
+<div class="info-row"><span class="info-label">樂松→京都站</span><span>步行 10 分（或計程車 ¥700）</span></div>
+<div class="info-row"><span class="info-label">京都→三宮</span><span>JR 新快速 · 50 分 · ¥1,100 · 往姬路方向</span></div>
+<div class="info-row"><span class="info-label">三宮→UKB</span><span>Port Liner · 18 分 · ¥340</span></div>
+<div class="info-row"><span class="info-label">⚠️ 注意</span><span>JR 月台確認「新快速 姬路」· 別搭錯方向</span></div>
+</div>
+<div class="info-box orange"><div class="info-title">💡 提醒</div><span>神戶機場小 · 起飛前 60 分到即可 · 10:00 出發很充裕</span></div>
+</div></div>
+
+<div class="page"><div class="inner">
+<div class="section-title">💰 每人預算</div>
+<table>
+<tr><th>項目</th><th>NT$</th><th>備註</th></tr>
+<tr><td>✈️ 星宇台中⇄神戶</td><td>16,000–18,500</td><td>含餐含行李 23kg×2</td></tr>
+<tr><td>🏠 樂松 4 晚</td><td>≈ 6,000–7,500</td><td>7 人分攤</td></tr>
+<tr><td>📦 行李寄送</td><td>≈ 300–400</td><td>¥1,500–2,000/件 ÷ 7 人</td></tr>
+<tr><td>🚃 交通</td><td>≈ 2,600</td><td>JR + 公車 + 計程車分攤</td></tr>
+<tr><td>🍽️ 餐飲 5 天</td><td>≈ 5,400</td><td>町家廚房可自煮</td></tr>
+<tr><td>👘 和服</td><td>≈ 1,100</td><td>岡本／和香菜</td></tr>
+<tr><td>🎫 門票</td><td>≈ 650</td><td>清水寺 · 天龍寺 · 金閣寺 · 東大寺</td></tr>
+<tr><td>🎡 麵包超人＋摩天輪</td><td>≈ 700</td><td>¥2,000–2,500 + ¥800</td></tr>
+<tr><td>🛍️ 購物雜支</td><td>3,000–6,000</td><td>彈性</td></tr>
+<tr style="background:#fef3e8;font-weight:700"><td>合計</td><td>≈ 35,800–42,900</td><td>✅</td></tr>
+</table>
+
+<div class="section-title">☑️ 出發確認清單</div>
+<table>
+<tr><td>✈️</td><td>星宇 JX306 10/14 · JX301 10/18（7人）</td></tr>
+<tr><td>🏠</td><td><a href="https://www.airbnb.com.tw/rooms/1675937752566323038">樂松 Airbnb</a> 預訂確認 · 10/14–10/18</td></tr>
+<tr><td>📦</td><td>告知房東 Day 1 會用宅急便寄行李</td></tr>
+<tr><td>👘</td><td>和服預約 10/16 上午</td></tr>
+<tr><td>📱</td><td>隨身 WiFi（房內已附）或 eSIM</td></tr>
+<tr><td>🚑</td><td>旅平險＋醫療</td></tr>
+<tr><td>💊</td><td>常用藥 · 暈車藥 · 痠痛貼布</td></tr>
+<tr><td>🧥</td><td>10 月中 15–25°C · 薄外套＋風衣</td></tr>
+<tr><td>💴</td><td>日幣現金 · 建議 ¥10 萬以上</td></tr>
+</table>
+
+<div class="footer-note">🍁 關西秋日家族慢旅 2026 · 七人同行 · 全住京都樂松 🌸</div>
+</div></div>
+
+</body>
+</html>
